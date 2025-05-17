@@ -37,3 +37,45 @@ let newName = Number(random)
 
 console.log(typeof newName); //op - number
 console.log( newName); //op - NaN
+
+
+// boolean try
+
+let pass = true
+
+console.log(typeof pass); //op - boolean
+console.log(pass); //op - true
+
+
+let isPass = Number(pass)
+
+console.log(typeof isPass); //number - 
+console.log(isPass); //op - 1
+
+
+let number = 5
+
+console.log(typeof number);
+console.log(number);
+
+let newNum = Boolean(number)
+
+console.log(typeof newNum);
+console.log(newNum);
+
+
+let No = 59
+
+let NewNo = String(No)
+
+console.log(typeof No);
+console.log(No);
+console.log(typeof NewNo);
+console.log(NewNo);
+
+
+
+
+
+
+
