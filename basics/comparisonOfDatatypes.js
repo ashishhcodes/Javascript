@@ -20,3 +20,14 @@ console.log(null == 0);//false
 
 
 
+console.log(2 === 2); //true
+console.log(3 === "3"); //false
+console.log("js" === "JS");//false
+console.log("p" === 4);//false
+
+console.log("p" === "p"); //true
+
+
+
+
+
