@@ -38,4 +38,34 @@ console.log(bigNo);
 console.log(typeof bigNo);
 
 
+// 2. Non- Primitives (Reference Types)
+    //  Array, Object, Function
+
+
+const plants = ["pothos", "spider-Plant","ZZ-plant","snake-plant"]
+
+console.log(plants); //op: [ 'pothos', 'spider-Plant', 'ZZ-plant', 'snake-plant' ]
+
+console.log(typeof plants); //object
+
+let myObj = {
+    name: "rishi",
+    age: 22,
+}
+
+console.log(myObj); //{ name: 'rishi', age: 22 }
+console.log(typeof myObj); // object
+
+
+const myFunction = function() {
+    console.log("hello world");
+}
+myFunction(); //hello world
+console.log(myFunction); //op: [Function: myFunction]
+
+
+
+
+
+
 
