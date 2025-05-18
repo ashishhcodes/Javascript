@@ -25,8 +25,8 @@ console.log(3 === "3"); //false
 console.log("js" === "JS");//false
 console.log("p" === 4);//false
 
-console.log("p" === "p"); //true
-
+console.log("p" === "p"); //true 
+// === it checks direct values are either equal or not
 
 
 
