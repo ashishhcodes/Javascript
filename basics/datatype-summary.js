@@ -25,6 +25,13 @@ console.log(id === anotherId); //false
 const nm = Symbol("code")
 const anotherNM = Symbol("code")
 
+// const nmm1 = Number(nm) //TypeError: Cannot convert a Symbol value to a number
+console.log(typeof nm); //symbol
+console.log(typeof anotherNM); //symbol
+// console.log(typeof nmm1); //we cannot convert sYmbol to NUMBER
+
+
+
 console.log(nm === anotherNM); //false
 
 console.log(nm == anotherNM); //false
