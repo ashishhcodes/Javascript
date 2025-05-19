@@ -60,8 +60,8 @@ console.log(userTwo.email); //xyz@gmail.com
 | Type                              | String, Number, Boolean, null, undefined | Object, Array, Function                  |
 | Stored in                         | Stack (direct value)                     | Heap (reference in stack, value in heap) |
 | When assigned to another variable | **Value is copied**                      | **Reference is copied**                  |
-| Are they connected after copy?    | ❌ No (Independent values)               | ✅ Yes (Both point to same object)      |
-| If one changes, other affected?   | ❌ No                                    | ✅ Yes                                  |
+| Are they connected after copy?    |    No (Independent values)               |     Yes (Both point to same object)      |
+| If one changes, other affected?   |    No                                    |     Yes                                  |
 
 
 
