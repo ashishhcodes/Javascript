@@ -42,6 +42,39 @@ console.log("Javascript".includes("asc")); //op: true; Checks whether a string c
 
 console.log("banana".indexOf("a")); //op: 1; Returns the first position where the substring appears. If not found, returns -1.
 
+console.log("banana".lastIndexOf("a")); //op: ; Same as indexOf, but finds the last occurrence of the substring.
+
+console.log("JavaScript".slice(0, 4)); //op: Java;  Extracts a portion of a string from the start index to end (not included).
+//  It supports negative values too.
+
+console.log("JavaScript".slice(-5));
+
+console.log("JavaScript".slice(0));
+
+console.log("JavaScript".slice(2,-2));
+
+
+// after i tried slice(0) why did it printed Javascript
+// because if you entered one number it will count from evry character from that number and prints it 
+
+
+console.log("Core".slice(-2)); //op: re
+
+console.log("Core".slice(0)); //op Core
+console.log("Core".slice(1)); //op ore
+console.log("Core".slice(2));//op: re
+console.log("Core".slice(-3)); //op: ore
+console.log("Core".slice(-4)); //op: Core
+console.log("Core".slice(-2)); //op: re
+console.log("Core".slice(-1)); //op : e
+console.log("Core".slice(0)); //op : Core 
+
+
+
+
+
+
+// console.log();
 
 
 
