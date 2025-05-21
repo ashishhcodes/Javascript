@@ -104,6 +104,7 @@ console.log("5".padStart(5,".")); //op: ....5 ; Adds characters to the start unt
 console.log("hey".padEnd(10,"!")); //op: hey!!!!!!! Adds characters to the end until target length is met
 
 
+
 // console.log();
 
 
