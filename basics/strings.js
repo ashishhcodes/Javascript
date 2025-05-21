@@ -71,7 +71,37 @@ console.log("Core".slice(0)); //op : Core
 
 
 
+// substring
+// its similar to slice but can't accept negative values
 
+console.log("JavaScipt".substring(2,5));
+
+ // "hello"
+console.log("   hello  ".trim()); //op: hello ; Removes whitespace from both sides.
+
+console.log("hello this is my name".replace("this","john")); //op:hello john is my name ;Replaces a substring or pattern.
+
+
+// split(); :- Splits string into an array.
+console.log("apple,banana,grape".split(""));
+/* op:[
+  'a', 'p', 'p', 'l', 'e',
+  ',', 'b', 'a', 'n', 'a',
+  'n', 'a', ',', 'g', 'r',
+  'a', 'p', 'e'
+]
+*/
+
+console.log("apple,banana,grape".split(",")); //op: [ 'apple', 'banana', 'grape' ]
+
+
+// .repeat(n) :- Repeats the string n times.
+
+console.log("he".repeat(4)); //op:hehehehe
+
+console.log("5".padStart(5,".")); //op: ....5 ; Adds characters to the start until target length is met
+
+console.log("hey".padEnd(10,"!")); //op: hey!!!!!!! Adds characters to the end until target length is met
 
 
 // console.log();
