@@ -23,8 +23,25 @@ console.log(myDate.getSeconds());
 console.log(myDate.getTimezoneOffset());
 console.log(myDate.getUTCDate());
 
+let myCreatedDate = new Date(2025,8,5)
+
+console.log(myCreatedDate.toDateString());
+
+let TimeStamp = Date.now()
+
+console.log(TimeStamp);
 
 
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getDate());
+console.log(newDate.getMonth());
 
+
+const dayName = newDate.toLocaleString('default', {
+    weekday: "long",
+    
+})
+console.log(dayName);
 
 
