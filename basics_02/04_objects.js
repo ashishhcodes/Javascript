@@ -8,7 +8,8 @@ tinderUser.isLoggedIn = false
 
 // Note : we can create as many no of nested objects if we want 
 // e.g ->
-const regulerUser = {
+const regulerUser = 
+{
     email: "some@gmail.com",
     fullname: {
         userFullName: {
