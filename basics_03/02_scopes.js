@@ -59,8 +59,11 @@ const addTwo = function (num) {
     return num + 2
 }
 
-addTwo(5)
+console.log( addTwo(5));
+
 addTwo(9)
+addTwo(19)
+addOne(2)
 
 // in first case we have just declared the function so it can be accessable before initialization also
 // but in second case we've declared aswell as hold the value n=inside a variable so thats why we cannot access it before initialization

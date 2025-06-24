@@ -24,6 +24,7 @@ let str3 = str1 + str2
 console.log(str3);
 
 console.log("2" + 2); //22
+console.log(2 + "2"); //22
 console.log("2" + 2 + "2");  //222
 console.log(2 + 2 + "2");//42
 console.log("2" + "2" + 2);//222
