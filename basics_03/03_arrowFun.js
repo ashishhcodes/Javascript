@@ -3,7 +3,6 @@ const user = {
     priceOfWebsite: 9999,
 
     welcomeMsg: function () {
-        console.log(`${username} welcome to website`);
-        
+        console.log(`${username} , welcome to website`);
     }
 }
