@@ -66,7 +66,7 @@ console.log("Core".slice(2));//op: re
 console.log("Core".slice(-3)); //op: ore
 console.log("Core".slice(-4)); //op: Core
 console.log("Core".slice(-2)); //op: re
-console.log("Core".slice(-1)); //op : e
+console.log("Core   ".slice(-1)); //op : e
 console.log("Core".slice(0)); //op : Core 
 
 
