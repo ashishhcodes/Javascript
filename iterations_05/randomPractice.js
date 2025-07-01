@@ -147,9 +147,6 @@ function getInitials(name){
  console.log(getInitials("Ashish Khandekar"))
 
 
-
-
-
 //  Write a function that prints the multiplication table of any number passed as argument.
 // Call it as printTable(7);
 
