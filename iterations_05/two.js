@@ -66,4 +66,3 @@ do {
     rdm++
     
 } while (rdm < newArr.length);
-
