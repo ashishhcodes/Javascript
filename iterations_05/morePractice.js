@@ -8,7 +8,7 @@ function getSum(arr) {
     }
     return sum
 }
-console.log(getSum(arr));
+// console.log(getSum(arr));
 
 
 
@@ -24,16 +24,33 @@ function countEvens(nums) {
     }
     return count
 }
-console.log(countEvens(nums));
+// console.log(countEvens(nums));
 
     
 // // 3. Create a function countChars(str) that counts characters excluding spaces
-let inputStr = "Ashish Khandekar";
+let inputStr = "ash bk ash iuy  ";
 // // Ans:
 
+function countChars(inputStr) {
 // console.log(inputStr.split(","));
-let charSplit = inputStr.split(",")
-let parts = inputStr.
+let charSplit = Array.from(inputStr)
+let count = ""
+
+for (let i = 0; i < charSplit.length; i++) {
+    
+        if (charSplit[i] == " ") {
+            continue
+        }
+        count++
+    }
+    
+    console.log(charSplit.length);
+    return count
+    
+}
+console.log(countChars(inputStr))
+
+ 
 
 
 // // 4. Using for...of, print all items in uppercase
